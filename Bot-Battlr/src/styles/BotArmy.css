@@ -1,0 +1,35 @@
+.bot-army {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bot-army .single-bot {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.bot-army .single-bot .bot-image {
+    width: 100%;
+    height: auto;
+}
+
+.bot-army .single-bot .bot-info {
+    margin-top: 10px;
+}
+
+.bot-army .single-bot .remove-button {
+    background-color: rgba(255,0,0,0.8);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

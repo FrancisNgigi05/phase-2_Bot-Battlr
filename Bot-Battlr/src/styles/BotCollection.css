@@ -1,0 +1,30 @@
+.bot-collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+   }
+   
+   .single-bot {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+   }
+   
+   .single-bot:hover {
+    transform: scale(1.05);
+   }
+   
+   .single-bot img {
+    width: 50%;
+    height: auto;
+   }
+   
+   .single-bot p {
+    margin: 5px 0;
+   }
+   
